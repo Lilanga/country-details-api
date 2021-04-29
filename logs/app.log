@@ -1,5 +1,0 @@
-{"message":"Server is listning on port 4000.","level":"info"}
-{"message":"::1 - - [29/Apr/2021:14:45:51 +0000] \"GET /api/country/Singapore HTTP/1.1\" 401 25 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
-{"message":"::1 - - [29/Apr/2021:14:46:12 +0000] \"GET /api/country/Singapore HTTP/1.1\" 200 36 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
-{"message":"Server is listning on port 4000.","level":"info"}
-{"message":"::1 - - [29/Apr/2021:14:47:47 +0000] \"GET /api/country/Singapore HTTP/1.1\" 200 36 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
