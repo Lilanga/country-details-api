@@ -1,0 +1,11 @@
+node_modules
+.vscode
+logs
+migrations
+package-lock.json
+.editorconfig
+.eslintrc.js
+Dockerfile
+.dockerignore
+.gitignore
+.env
