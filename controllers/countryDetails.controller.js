@@ -34,7 +34,13 @@ exports.findCountryDetailsByName = (req, resp) => {
     return;
   }
 
-  findCountryByName(name).then((country) => { resp.send(country); }).catch((err) => {
+  findCountryByName(name).then((country) => {
+    if (country) {
+      resp.send(country);
+    } else {
+      resp.status(404).send({ message: `requested country: ${name} is not found` });
+    }
+  }).catch((err) => {
     winstonLogger.error(err);
     resp.status(500).send({
       message: err.message,
